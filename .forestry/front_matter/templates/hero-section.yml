@@ -1,4 +1,18 @@
 ---
 label: Hero Section
 hide_body: false
-fields: []
+fields:
+- name: hero_title
+  type: text
+  config:
+    required: false
+  label: Hero Title
+- name: hero_para
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Hero Para
